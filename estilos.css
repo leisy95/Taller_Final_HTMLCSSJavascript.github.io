@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+.contact {
+    box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 10%);
+    padding: 60px 0;
+    overflow: hidden;
+    background: #23292773;
+  }
+  .container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .section-header {
+    padding-bottom: 30px;
+  }
+  .section-header h3 {
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+  }
+  .contact input,
+  .contact .form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    padding-left: 4px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .contact .form .validation {
+    color: red;
+    display: none;
+    margin: 0 0 20px;
+    font-weight: 400;
+    font-size: 13px;
+  }
+  .form-group {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .text-center{
+    margin: 15px;
+    text-align: center;
+  }
+  .fcc-btn {
+    background-color: #a05209;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 8px 30px;
+    text-decoration: none;
+  }
+  
+  .fcc-btn:hover {
+    color: #000000;
+    background-color: white;
+  }
